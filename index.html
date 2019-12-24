@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+	<head>
+		<title>Portfolio overview</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<h1>Portfolio overview</h1>
+		<div class="overview">Following are some of many projects that I have worked on over the years. Very few of them have been salvaged, mostly due to the fact that the codebase for them was dirty and I was not satisfied with the final product to the point of continuing my work on them. Also, none of these projects took more than a week to complete.</div>
+		
+		<h3>&bull; Snow particles effect</h3>
+		<div class="content">
+			<img class="thumbnail" src="snow.png">
+			<div class="overview overview-small">
+				Simple snow particles effect demo done in OpenGL.
+				Particle attributes, such as velocity and position, are stored in a texture buffer which is computed and updated via shader, for improved performance.
+			</div>
+			<a class="btn btn-secondary" href="#" role="button">View more</a>
+		</div>
+		
+		<h3>&bull; PBR pipeline explorer</h3>
+		<div class="content">
+			<img class="thumbnail" src="pbr.png">
+			<div class="overview overview-small">
+				Quick and dirty PBR (physically based rendering) pipeline implementation in OpenGL.
+				Can be used to explore the (approximated) behaviour of rough, smooth, metallic or dielectric materials under different environments and parameters.
+			</div>
+			<a class="btn btn-secondary" href="#" role="button">View more</a>
+		</div>
+	</body>
+</html>

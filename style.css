@@ -1,0 +1,27 @@
+body {
+	width: 600px;
+	margin: 16px;
+}
+
+h1, h3 {
+	margin-bottom: 16px;
+}
+
+.overview {
+	margin-bottom: 16px;
+}
+
+.overview-small {
+	font-size: 14px;
+}
+
+.content {
+	width: 400px;
+	margin-left: 32px;
+	margin-bottom: 16px;
+}
+
+.thumbnail {
+	width: 100%;
+	margin-bottom: 8px;
+}
