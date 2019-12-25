@@ -1,6 +1,6 @@
 body {
 	width: 600px;
-	margin: 16px;
+	margin: 16px 16px 16px 24px;
 }
 
 h1, h3 {
@@ -9,6 +9,20 @@ h1, h3 {
 
 .overview {
 	margin-bottom: 16px;
+}
+
+.langicon {
+	width: 48px;
+	margin-left: 8px;
+}
+
+.langicon-small {
+	width: 32px;
+}
+
+.giticon  {
+	width: 24px;
+	margin-right: 8px;
 }
 
 .overview-small {
@@ -24,4 +38,16 @@ h1, h3 {
 .thumbnail {
 	width: 100%;
 	margin-bottom: 8px;
+}
+
+.previewvideo {
+	height: 480px;
+}
+
+.tabkey {
+	font-style: italic;
+}
+
+.tabvalue {
+	font-weight: bold;
 }
