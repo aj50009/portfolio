@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="robots" content="noindex">
+		<meta charset="UTF-8">
+		<title>FER projects</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<h1>FER projects</h1>
+		<div class="overview">
+            Here are some of the assignments that I had to do in order to pass my university courses.
+            Not all of them are documented here, just a few that were saved, the rest is most likely lost.
+            Most of these are not even worth looking into.
+		</div>
+		<div class="overview">
+			Go back to <a href="index.html">main projects</a> page.
+		</div>
+		
+		<h3>
+			&bull; Network programming
+			<img class="langicon langicon-small" src="langicon/c.png" data-toggle="tooltip" data-placement="bottom" title="ANSI C">
+		</h3>
+		<div class="content">
+			<div class="overview overview-small">
+				Contains several mini-projects written in ANSI C using Unix sockets tested under FreeBSD.
+				Important ones include a basic TFTP server and client, as well as a basic HTTP web server.
+			</div>
+			<a class="btn btn-secondary" href="https://www.fer.unizg.hr/en/course/netpro" role="button">Course page</a>
+			<a class="btn btn-primary" href="https://gitlab.com/__fastcall/mrepro" role="button">View source <img class="langicon langicon-tiny" src="giticon/gitlab.png"></a>
+		</div>
+
+		<h3>
+			&bull; Interactive computer graphics
+			<img class="langicon langicon-small" src="langicon/cxx.png" data-toggle="tooltip" data-placement="bottom" title="C++11">
+			<img class="langicon langicon-small" src="apiicon/ogl.png" data-toggle="tooltip" data-placement="bottom" title="various OpenGL subsets">
+		</h3>
+		<div class="content">
+			<div class="overview overview-small">
+				Implements a custom header-only mathematical library (which, unfortunately, doesn't take advantage of SIMD extensions).
+				Contains (suboptimal) implementations of various algorithms used in CG, such as raycasting.
+				Also includes a simple GLSL implementation of a Phong shader.
+				Assignment tasks can be found <a href="http://www.zemris.fer.hr/predmeti/irg/">here</a> (Croatian).
+			</div>
+			<a class="btn btn-secondary" href="https://www.fer.unizg.hr/en/course/icg" role="button">Course page</a>
+			<a class="btn btn-primary" href="https://gitlab.com/__fastcall/irg" role="button">View source <img class="langicon langicon-tiny" src="giticon/gitlab.png"></a>
+		</div>
+
+		<h3 style="width: 110%;">
+			&bull; Design patterns in software design
+			<img class="langicon langicon-small" src="langicon/c.png" data-toggle="tooltip" data-placement="bottom" title="ANSI C">
+			<img class="langicon langicon-small" src="langicon/cxx.png" data-toggle="tooltip" data-placement="bottom" title="C++11">
+			<img class="langicon langicon-small" src="langicon/cs.png" data-toggle="tooltip" data-placement="bottom" title="C# .NET 4.0 (Mono)">
+			<img class="langicon langicon-small" src="langicon/py.png" data-toggle="tooltip" data-placement="bottom" title="Python 2">
+		</h3>
+		<div class="content">
+			<div class="overview overview-small">
+				Implementations of some design patterns in various languages.
+				Assignment tasks can be found <a href="http://www.zemris.fer.hr/~ssegvic/ooup/">here</a> (Croatian).
+			</div>
+			<a class="btn btn-secondary" href="https://www.fer.unizg.hr/en/course/dpisd" role="button">Course page</a>
+			<a class="btn btn-primary" href="https://gitlab.com/__fastcall/ooup" role="button">View source <img class="langicon langicon-tiny" src="giticon/gitlab.png"></a>
+		</div>
+
+		<h3>
+			&bull; Artificial intelligence
+			<img class="langicon langicon-small" src="langicon/py.png" data-toggle="tooltip" data-placement="bottom" title="Python 2">
+		</h3>
+		<div class="content">
+			<div class="overview overview-small">
+				Implementations of various search algorithms, basic propositional logic, reinforcement learning and genetic algorithm.
+			</div>
+			<a class="btn btn-secondary" href="https://www.fer.unizg.hr/en/course/artint" role="button">Course page</a>
+			<a class="btn btn-primary" href="https://gitlab.com/__fastcall/ui" role="button">View source <img class="langicon langicon-tiny" src="giticon/gitlab.png"></a>
+		</div>
+	</body>
+</html>

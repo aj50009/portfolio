@@ -20,6 +20,10 @@ h1, h3 {
 	height: 32px;
 }
 
+.langicon-tiny {
+	height: 22px;
+}
+
 .giticon  {
 	width: 24px;
 	margin-right: 8px;
