@@ -55,3 +55,12 @@ h1, h3 {
 .tabvalue {
 	font-weight: bold;
 }
+
+.modalimg {
+	width: 100%;
+	margin-bottom: 16px;
+}
+
+.modalimg-border {
+	border: 1px solid #dfdfdf;
+}
