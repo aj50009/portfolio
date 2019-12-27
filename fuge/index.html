@@ -3,7 +3,7 @@
 	<head>
 		<meta name="robots" content="noindex">
 		<meta charset="UTF-8">
-		<title>Cross-platform 2D game engine</title>
+		<title>Simple 2D game engine &amp; editor</title>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 		<link rel="stylesheet" href="../style.css">
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -12,47 +12,38 @@
 		<script src="../script.js"></script>
 	</head>
 	<body>
-		<h1 style="width: 150%;">
-            Cross-platform 2D game engine
-			<img class="langicon" src="../langicon/cxx.png" data-toggle="tooltip" data-placement="bottom" title="C++11">
-			<img class="langicon" style="border-radius: 4px;" src="../apiicon/d3d.png" data-toggle="tooltip" data-placement="bottom" title="Direct3D 9">
+		<h1 style="width: 110%;">
+            Simple 2D game engine &amp; editor
+			<img class="langicon" src="../langicon/cxx.png" data-toggle="tooltip" data-placement="bottom" title="C++98">
 		</h1>
 		<div class="overview">
-            Simple 2D game engine written using Direct3D 9 for Windows and Xbox 360 game console.
-            It supports rendering 2D sprites, drawing bitmap fonts, streaming wave audio and handling keyboard/controller input.
-            Lua scripting is supported out of the box, with all of the core engine functionality exposed to Lua as well.
+            Very simple 2D game engine with its own editor program.
+            Some of the core engine features include rendering 2D sprites, drawing TrueType fonts, streaming various audio formats, handling keyboard input, Lua scripting support, builtin scene swapping mechanisms, component-driven system (similar to Unity) and more.
 		</div>
 		
 		<h3>&bull; Overview</h3>
 		<div class="content">
 			<video class="previewvideo" autoplay muted loop>
-				<source src="c2d.webm" type="video/webm">
+				<source src="fuge.mp4" type="video/mp4">
 			</video>
 			<div class="overview overview-small" style="width: 220%;">
-				This video is a minigame segment from a game that was fully built using this engine.
-				The minigame is paying homage to <a href="https://en.wikipedia.org/wiki/Touhou_Project">Touhou Project</a>.
+				Example usage of the engine editor showcasing some of the features.
 			</div>
 			<video class="previewvideo" autoplay muted loop>
-				<source src="c2d_2.webm" type="video/webm">
+				<source src="fuge_2.mp4" type="video/mp4">
 			</video>
 			<div class="overview overview-small" style="width: 220%;">
-				Also a segment from the game.
-				Inspired by Sega CD game <a href="https://en.wikipedia.org/wiki/Snatcher_(video_game)">Snatcher</a>.
-				I don't really have any other better screenshots or clips to put up.
+				Gameplay of the final exported game executable.
 			</div>
 			<div class="overview overview-small">
 				<div class="container">
 					<div class="row">
 						<div class="col-4 tabkey">Language</div>
-						<div class="col-8 tabvalue">C++11</div>
-					</div>
-					<div class="row">
-						<div class="col-4 tabkey">API</div>
-						<div class="col-8 tabvalue">Direct3D 9</div>
+						<div class="col-8 tabvalue">C++98</div>
 					</div>
 					<div class="row">
 						<div class="col-4 tabkey">Libraries</div>
-						<div class="col-8 tabvalue">D3DX9, Lua, JsonCpp, Xinput and various other WinAPI libraries</div>
+						<div class="col-8 tabvalue">SFML, wxWidgets, Lua, FreeType, pugixml, zlib, libpng, expat, OpenAL, libogg, libvorbis, libflac, inih and various other WinAPI libraries</div>
                     </div>
                     <div class="row">
 						<div class="col-4 tabkey">Source</div>
@@ -65,7 +56,7 @@
 		</div>
 
 		<div class="content">
-			<a class="btn btn-secondary" href="../index.html?c2d&expand" role="button">Go back</a>
+			<a class="btn btn-secondary" href="../index.html?fuge&expand" role="button">Go back</a>
 		</div>
 	</body>
 </html>
