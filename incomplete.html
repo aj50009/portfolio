@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="robots" content="noindex">
+		<meta charset="UTF-8">
+		<title>Incomplete projects</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<h1>Incomplete projects</h1>
+		<div class="overview">
+            Here are some of many projects that I never had the time (or motivation) to actually complete.
+            Some of them might be interesting to see.
+		</div>
+		<div class="overview">
+			Go back to <a href="index.html?misc">main projects</a> page.
+		</div>
+		
+		<h3>
+			&bull; Playstation 1 game engine
+			<img class="langicon langicon-small" src="langicon/c.png" data-toggle="tooltip" data-placement="bottom" title="ANSI C">
+		</h3>
+		<div class="content">
+			<div class="overview overview-small">
+                Incomplete 2D game engine for the Sony Playstation 1 game console.
+                Contains features such as reading files from disc, reading from and writing to the memory card and checking controller status.
+                PSYQ toolkit is required for compilation and it can be unofficially obtained from <a href="http://www.psxdev.net/downloads.html">here</a>.
+                I actually made a more complete PS1 engine years before this one, which was able to do 2D rendering of sprites of various image depths and had audio playback capabilities.
+                However it was not as easy to use as this one and some of the features only worked on the emulator but not the real console.
+                For that reason I decided to omit it, however I'm willing to show its source code to anyone who might be interested.
+			</div>
+			<a class="btn btn-primary" href="https://github.com/aj50009/psge" role="button">View source <img class="langicon langicon-tiny" src="giticon/github.png"></a>
+        </div>
+        
+        <div class="modal fade" id="euCloneModal" tabindex="-1" role="dialog" aria-labelledby="euCloneModalLabel" aria-hidden="true">
+			<div class="modal-dialog" style="max-width: 600px;" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="euCloneModalLabel">Grand strategy game screenshots</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img class="modalimg modalimg-border" src="incomplete/col_00.png">
+						<img class="modalimg modalimg-border" src="incomplete/col_01.png">
+						<img class="modalimg modalimg-border" src="incomplete/col_02.png">
+						<img class="modalimg modalimg-border" src="incomplete/col_03.png">
+						<img class="modalimg modalimg-border" src="incomplete/col_04.png">
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+        <h3>
+			&bull; Grand strategy game
+			<img class="langicon langicon-small" src="langicon/cs.png" data-toggle="tooltip" data-placement="bottom" title="C# .NET 2.0 (Mono)">
+			<img class="langicon langicon-small" src="apiicon/unity.png" data-toggle="tooltip" data-placement="bottom" title="Unity">
+		</h3>
+		<div class="content">
+			<div class="overview overview-small">
+                Game inspired by <a href="https://en.wikipedia.org/wiki/Europa_Universalis_IV">Europa Universalis IV</a> and <a href="https://en.wikipedia.org/wiki/Crusader_Kings_II">Crusader Kings II</a>.
+                The scope of the aforementioned games is gigantic, and hence I knew that I wouldn't be able to make a game of such calibre, so I approached this project without the intention of ever completing it.
+                The map, biomes and provinces are generated procedurally (using Perlin noise and Voronoi maps).
+                Province, country and monarch names are generated as a mashup of pre-existing name bases.
+                Simple concepts such as ethnicity and religion were implemented fully, with partially completed implementations of parliament.
+                The source code was lost.
+			</div>
+			<button class="btn btn-secondary" type="button" data-toggle="modal" data-target="#euCloneModal">Screenshots</button>
+		</div>
+	</body>
+</html>
