@@ -16,11 +16,20 @@ $(document).ready(function() {
             closedSourceProjectsButton.html(hideString);
         }
         if (getParameters.length >= 1) {
-            let focusedElement = document.getElementById(getParameters[0] + 'Project');
+            let elementId = getParameters[0] + 'Project';
+            let focusedElement = document.getElementById(elementId);
             if (focusedElement != null)
-                focusedElement.scrollIntoView();
+                setTimeout(function() {
+                    focusedElement.scrollIntoView();
+                    if (elementId != 'miscProject')
+                        $('#' + elementId).addClass('h3_target');
+                    $('body').animate({ opacity: 1.0 }, 250);
+                }, 250);
+            else
+                $('body').animate({ opacity: 1.0 }, 250);
         }
-    }
+    } else
+        $('body').animate({ opacity: 1.0 }, 250);
 });
 
 function closedSourceProjects_expand() {
